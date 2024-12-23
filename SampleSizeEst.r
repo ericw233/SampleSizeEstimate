@@ -74,7 +74,8 @@ server <- function(input, output) {
         isolate({
             sample_size <- calculate_sample_size()
             paste(
-            " Sample size based on sensitivity estimation: ", sample_size$n_sens, "\n","Sample size based on specificity estimation: ", sample_size$n_spec
+            " Sample size based on sensitivity estimation: ", sample_size$n_sens, "\n",
+            "Sample size based on specificity estimation: ", sample_size$n_spec
             )
         })
     })
