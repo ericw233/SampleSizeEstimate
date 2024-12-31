@@ -19,13 +19,11 @@ Install the packages with conda
     
     ```bash
     conda install -c conda-forge r-tidyverse r-shiny r-plotly
-    ```
 
 ## Run the Shiny application
 Run the application in R
     
     ```R
     shiny::runApp("SampleSizeEst.r")
-    ```
 
 ![App Screenshot](Screenshot_RShinyApp.png)
