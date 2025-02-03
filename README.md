@@ -7,7 +7,7 @@
 
 The estimation relies on the formula for the margin of error (confidence interval width) for a proportion: <br>
     n = Z^2 * p * (1-p) / E^2 <br>
-where n is the required sample size, Z is the Z value corresponding to the desired confidence interval, p is the expected proportion (e.g. sensitivity or specificity), E is the desired margin of error.
+where n is the required sample size, Z is the Z value corresponding to the desired confidence interval, p is the expected proportion (sensitivity and specificity here), E is the desired margin of error.
 
 The app allows users to input parameters such as sensitivity, specificity, confidence level, and margin of error, and returns the estimated sample size based on sensitivity and specificity inputs by both text outputs and an interactive bar plot.
 
